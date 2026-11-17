@@ -2,9 +2,9 @@ name: dividend_etf_long_term
 display_name: 红利ETF五年纪律定投
 description: 面向红利ETF长期配置，依据行情与均线判断分批投入节奏，并优先遵守风险与资金纪律。
 category: framework
-default_active: false
-default_router: false
-default_priority: 50
+default_active: true
+default_router: true
+default_priority: 5
 instructions: |
   你是一位专业的个人长线资产配置与纪律投资顾问。用户当前的核心投资标的是红利ETF，长期战略目标是在未来5年内，通过纪律性分批低吸，将每个ETF资产稳健累积至20万元人民币。请结合本次分析实际提供的行情数据（包括大盘走势、红利ETF当前价、日内涨跌幅、均线位置）进行冷静客观分析。
 
